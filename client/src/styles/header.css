@@ -1,0 +1,8 @@
+.tel {
+    font-size: 1.3em;
+    color: gray;
+    transition: 0.5s;
+}
+.tel:hover {
+    color: #e33935;
+}

@@ -1,0 +1,206 @@
+.devicepage1 {
+    background: white;
+}
+.devicepage {
+    width: 80%;
+    margin-left: 10%;
+    padding: 2%;
+}
+
+
+.rad {
+    transform: scale(1.3);
+    padding: 5%;
+    cursor: pointer;
+}
+.imgitem {
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .harcol {
+        width: 100%;
+    }
+    .imgitem {
+        width: 100%;
+    }
+}
+.har {
+    font-size: 1.5em;
+}
+.namedev {
+    font-size: 3em;
+}
+.gruz {
+    color: #212529;
+    transition: 0.2s;
+}
+.gruz:hover {
+    color: #e33935;
+}
+.shop {
+    padding: 0
+}
+.bronya {
+    width: 100%;
+}
+.modalnoe {
+    background-color: rgba(0, 0, 0, 0.41);
+}
+.modhead {
+    padding: 5%;
+    background-color: #e33935;
+    color: white;
+}
+.modbody {
+    padding: 5%;
+}
+.check {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.harcol {
+
+}
+.harcol1 {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 4%;
+    font-size: 1.1em;
+}
+@media (max-width: 768px) {
+    .harcol1 {
+        margin-top: 5%;
+    }
+    .harco {
+        margin-top: 2%;
+    }
+}
+.har {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.form-control {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rad {
+    margin-left: 10px;
+}
+
+.bronya {
+    margin-top: 20px;
+}
+.acor {
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: "PT Sans", sans-serif;
+}
+
+.acor .accordion-button {
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.acor .accordion-button:not(.collapsed) {
+    background-color: #e33935;
+    color: #fff;
+}
+
+.acor ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.acor ul li:last-child {
+    margin-bottom: 0;
+}
+
+.acor ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.acor ul li a:hover {
+    color: #e33935;
+}
+.checkCond {
+    color: #e33935;
+}
+.dogovor {
+    border-radius: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px 20px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.dogovor:hover {
+    background-color: #e33935;
+    color: white;
+}
+/* Стили CSS для кнопки */
+.feedback-button {
+    background-color: #4caf50; /* Зеленый цвет фона */
+    color: white; /* Белый цвет текста */
+    border: none; /* Удалить границы */
+    padding: 10px 20px; /* Внутренние отступы */
+    text-align: center; /* Выравнивание текста по центру */
+    text-decoration: none; /* Удалить подчеркивание ссылки */
+    display: inline-block; /* Отображение как блочный элемент */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Изменение курсора при наведении */
+    border-radius: 4px; /* Скругление углов */
+    transition-duration: 0.4s; /* Длительность анимации */
+}
+
+.feedback-button:hover {
+    background-color: #45a049; /* Изменение цвета фона при наведении */
+}
+
+.bronya1 {
+    width: 80%;
+    font-size: 1.2em;
+    padding: 2%;
+}
+.carousel {
+    cursor: pointer;
+}
+.carousel .slide img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+@media (max-width: 767px) {
+    .carousel .slide img {
+        height: 250px;
+    }
+    .bronya1 {
+        margin-left: 10%;
+    }
+}
+@media (max-width: 992px) {
+    .har {
+        font-size: 1.3em;
+    }
+}
+
+.carousel .slide .legend {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.scaleImg {
+    width: 100%;
+}

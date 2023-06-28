@@ -1,0 +1,27 @@
+.cont {
+    margin-top: 4%;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.telef {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.textcont {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.silka {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.silka:hover {
+    text-decoration: underline;
+}

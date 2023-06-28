@@ -1,0 +1,99 @@
+.devitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    height: 280px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.slick-slider {
+    height: 100%;
+    width: 100%;
+}
+
+.slick-list {
+    height: 270px;
+    width: 100%;
+}
+@media (max-width: 767px) {
+    .devitem {
+        height: 200px;
+    }
+    .slick-list {
+        height: 190px;
+        width: 100%;
+    }
+}
+.slick-slide {
+    height: 100%;
+    width: 100%;
+}
+
+.devitem .slick-dots {
+    bottom: 20px;
+}
+
+.devitem .slick-dots li button:before {
+    font-size: 10px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.devitem .slick-dots li.slick-active button:before {
+    opacity: 1;
+}
+
+.devitem .nameprice {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+}
+
+.devitem .nameprice div:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.devitem .nameprice div:last-child {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.slick-prev,
+.slick-next {
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before {
+    opacity: 1;
+}
+
+.slick-prev:before {
+    content: "\2190";
+}
+
+.slick-next:before {
+    content: "\2192";
+}

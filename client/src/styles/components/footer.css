@@ -1,0 +1,31 @@
+.footer {
+    background-color: #212529;
+    text-align: center;
+}
+.footer1 {
+    padding: 2%;
+}
+
+.footer__title {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.footer__link {
+    color: #ababab;
+    font-size: 17px;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+}
+.footer__link:hover {
+    color: rgb(227, 57, 53);
+}
+
+.footer__text {
+    color: #ababab;
+    font-size: 17px;
+    font-family: 'PT Sans', sans-serif;
+}
